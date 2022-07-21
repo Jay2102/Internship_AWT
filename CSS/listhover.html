@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Hover</title>
+    <style>
+        .sports li ol li{display: none}
+         .sports li:hover ol li{display: block}
+        .sports li ol li ul{display: none}
+        .sports li ol li:hover ul{display: block}
+        .sports li ol li ul li ol{display: none} 
+        .sports li ol li ul li:hover ol{display: block}
+    </style>
+</head>
+<body>
+    <ul class="sports">
+        <li>Cricket
+            <ol>
+                <li>T20I
+                    <ul>
+                        <li>India
+                            <ol>
+                                <li>KL Rahul</li>
+                                <li>Suryakumar Yadav</li>
+                                <li>Rishab Pant</li>
+                                <li>Shreyas Iyer</li>
+                            </ol>
+                        </li>
+                        <li>England</li>
+                        <li>Ausstralia</li>
+                        <li>New Zealand</li>
+                    </ul>
+                </li>
+                <li>ODI</li>
+                <li>Test</li>
+            </ol>
+        </li>
+        <li>Football</li>
+        <li>Table Tennis</li>
+        <li>Kabaddi</li>
+    </ul>
+</body>
+</html>
